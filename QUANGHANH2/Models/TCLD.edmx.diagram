@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="13b3b49e865c45148050917a7ef19bb5" Name="Diagram1">
+        <EntityTypeShape EntityType="TCLDModel.BangCap" Width="1.5" PointX="1.5" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.ChiTiet_BangCap" Width="1.5" PointX="5.25" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.ChiTiet_CongViec_NhanVien" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.ChiTiet_NhiemVu_NhanVien" Width="1.5" PointX="6" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.CongViec" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.GiayTo" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.HeHoc" Width="1.5" PointX="1.5" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.HoSo" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.LichSuBoSungSYLL" Width="1.5" PointX="5.25" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.Nganh" Width="1.5" PointX="1.5" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.NhanVien" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.NhiemVu" Width="1.5" PointX="3.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.QuanHeGiaDinh" Width="1.5" PointX="3" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.QuaTrinhCongTac" Width="1.5" PointX="3" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.TrinhDo" Width="1.5" PointX="1.5" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TCLDModel.Truong" Width="1.5" PointX="1.5" PointY="37.625" IsExpanded="true" />
+        <AssociationConnector Association="TCLDModel.FK__BangCap__MaHeHoc__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__ChiTiet_B__MaBan__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__NhiemVu__MaBangC__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK_BangCap_Nghanh" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK_BangCap_TrinhDo" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK_BangCap_Truong" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__ChiTiet_Ba__MaNV__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__ChiTiet_Co__MaNV__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__ChiTiet_CongViec__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__ChiTiet_Nh__MaNV__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__ChiTiet_NhiemVu___5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__GiayTo__MaNV__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__HoSo__MaNV__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__LichSuBoSu__MaNV__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__QuanHeGiaD__MaNV__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="TCLDModel.FK__QuaTrinhCo__MaNV__628FA481" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
